@@ -3,11 +3,11 @@ def badge_maker(name):
     return f"Hello, my name is {name}."
 
 # Write a batch_badge_creator() function that takes a list of names as an argument and returns a list of badge messages.
-# 1. Using list comprehension
+# 1. Using list comprehension.
 def batch_badge_creator(names):
     return [f"Hello, my name is {name}." for name in names]
 
-# 2. Using for loop
+# 2. Using for loop.
 # def batch_badge_creator(names):
 #    result = []
 #    for name in names:
